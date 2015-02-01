@@ -1,3 +1,3 @@
-ctApp.controller('SideNavController', function ($scope) {
+ctApp.controller('SideNavController', ['$scope', function($scope) {
 
-});
+}]);

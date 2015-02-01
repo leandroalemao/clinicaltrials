@@ -1,3 +1,3 @@
-ctApp.controller('TrialsController', function ($scope) {
+ctApp.controller('TrialsController', ['$scope', function($scope) {
 
-});
+}]);
