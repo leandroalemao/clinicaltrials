@@ -7,7 +7,6 @@ body {
   padding-top: 55px;
 }
 
-
 /*
  * Global add-ons
  */
@@ -79,6 +78,9 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
 .main .page-header {
   margin-top: 10px;
@@ -114,4 +116,8 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+.empty {
+  display: inline-block;
+  width: 5px;
 }
