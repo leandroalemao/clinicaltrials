@@ -4,8 +4,12 @@ class UsersController < ApplicationController
   after_action :verify_authorized
 
   def index
-    @users = User.all
     authorize User
+    @users = User.all
+    respond_to do |format|
+      format.html
+      format.json { render json: @users }
+    end
   end
 
   def show

@@ -6,8 +6,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 group :development, :test do
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 gem 'bootstrap-sass'
@@ -31,6 +29,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'pry'
 end
 group :production do
   gem 'rails_12factor'

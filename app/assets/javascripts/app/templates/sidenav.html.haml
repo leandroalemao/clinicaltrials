@@ -1,7 +1,7 @@
 .col-sm-3.col-md-2.sidebar{"ng-controller" => "SideNavController"}
   %ul.nav.nav-sidebar
     %li.active
-      %a{:href => "#"}
+      %a{'href': "/dashboard"}
         Overview
         %span.sr-only (current)
     %li
@@ -12,7 +12,7 @@
       %a{:href => "#"} Export
   %ul.nav.nav-sidebar
     %li
-      %a{:href => ""} Nav item
+      %a{'href': "/trials"} Trials
     %li
       %a{:href => ""} Nav item again
     %li
