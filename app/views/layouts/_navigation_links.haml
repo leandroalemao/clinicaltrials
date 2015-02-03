@@ -4,7 +4,7 @@
       %input.form-control{placeholder: "Search...", type: "text"}
   %li.dropdown
     %a#dropdownMenu1.btn.btn-link.dropdown-toggle{"aria-expanded" => "true", "data-toggle" => "dropdown"}
-      #{current_user.name} (#{current_user.email})
+      #{current_user.first_name} (#{current_user.email})
       %span.caret
     %ul.dropdown-menu{"aria-labelledby" => "dropdownMenu1", role: "menu"}
       - if user_signed_in?
