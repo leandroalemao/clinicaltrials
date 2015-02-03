@@ -17,5 +17,7 @@
 //= require angular-route
 //= require angular-bootstrap
 //= require angular-rails-templates
+//= require angular-animate
+//= require angular-loading-bar/build/loading-bar.min
 //= require_tree ./app/templates
 //= require_tree .

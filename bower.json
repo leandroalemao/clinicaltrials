@@ -9,7 +9,9 @@
     "dependencies": {
       "angular": "latest",
       "angular-route": "latest",
-      "angular-bootstrap": "latest"
+      "angular-bootstrap": "latest",
+      "angular-animate": "latest",
+      "angular-loading-bar": "latest"
     }
   }
 }

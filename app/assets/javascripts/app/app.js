@@ -1,6 +1,6 @@
-var ctApp = angular.module('ClinicalTrials', ['ngRoute', 'ui.bootstrap', 'templates'])
+var ctApp = angular.module('ClinicalTrials', ['ngRoute', 'ui.bootstrap', 'templates', 'ngAnimate', 'angular-loading-bar'])
 
-.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
+.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/dashboard', {
     templateUrl: 'dashboard.html',
@@ -13,4 +13,5 @@ var ctApp = angular.module('ClinicalTrials', ['ngRoute', 'ui.bootstrap', 'templa
   .otherwise({ redirectTo: '/dashboard' });
 
   $locationProvider.html5Mode(true);
+
 }]);
